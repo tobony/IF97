@@ -3,52 +3,63 @@
     public enum IF97Parameters
     {
         /// <summary>
-        /// 密度ρ.
+        /// density ρ 密度
         /// </summary>
         d,
+
         /// <summary>
-        /// 比焓.
+        /// specific enthalpy 比焓.
         /// </summary>
         h,
+
         /// <summary>
-        /// 绝对温度.
+        /// absolute temperature  绝对温度.
         /// </summary>
         T,
+
         /// <summary>
-        /// 压力.
+        /// pressure  压力.
         /// </summary>
         p,
+
         /// <summary>
-        /// 比熵.
+        /// specific entropy  比熵.
         /// </summary>
         s,
+
         /// <summary>
         /// 比内能.
         /// </summary>
         u,
+
         /// <summary>
-        /// 比体积.
+        /// specific internal energy 比体积
         /// </summary>
         v,
+
         /// <summary>
-        /// 等压比热.
+        /// isobaric specific heat 等压比热
         /// </summary>
         cp,
+
         /// <summary>
-        /// 等容比热.
+        /// sovolumetric specific heat 等容比热
         /// </summary>
         cv,
+
         /// <summary>
-        /// 声速.
+        /// speed of sound  声速
         /// </summary>
         w,
         drhodp,
+
         /// <summary>
-        /// 动力粘度,μ.
+        /// dynamic viscosity, μ 动力粘度
         /// </summary>
         mu,
+
         /// <summary>
-        /// 热导率.
+        /// thermal conductivity 热导率.
         /// </summary>
         tc
     }
