@@ -28,12 +28,12 @@
         s,
 
         /// <summary>
-        /// 比内能.
+        /// specific internal energy 比内能.
         /// </summary>
         u,
 
         /// <summary>
-        /// specific internal energy 比体积
+        /// specific volume  比体积
         /// </summary>
         v,
 
