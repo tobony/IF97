@@ -6,6 +6,7 @@ namespace IF97
     {
         private Constants() { }
 
+        // IF97 Constants
         public const double Tcrit = 647.096;               // K
         public const double Pcrit = 22.064;                // Pa
         public const double Rhocrit = 322.0;               // kg/m³
@@ -18,7 +19,8 @@ namespace IF97
         public const double Pmax = 100.0;                  // Pa
         public const double Rgas = 0.461526;               // J/kg-K : mass based!
         public const double MW = 0.018015268;              // kg/mol
-                                                           // Bounds for Region Determination
+        
+        // Bounds for Region Determination
         public const double Text = 2273.15;                // Extended (Region 5) Temperature Limit (Region 5) [K]
         public const double Pext = 50.0;                   // Extended (Region 5) Pressure Limit (Region 5) [Pa]
         public const double P23min = 16.529164252605;      // Min Pressure on Region23 boundary curve; Max is Pmax
@@ -26,7 +28,8 @@ namespace IF97
         public const double T23max = 863.15;               // Max Temperature on Region23 boundary curve
         public const double P2bcmin = 6.54670;             // Min Pressure [MPa] on H2b2c boundary curve; Max is Pmax
         public const double S2bc = 5.85;                   // Min Pressure [MPa] on H2b2c boundary curve; Max is Pmax
-                                                           // Bounds for Backward p(h,s), t(h,s) Determination
+        
+        // Bounds for Backward p(h,s), t(h,s) Determination
         public const double Smin = 0.0;                    // Min Entropy [kJ/kg-K] for Backward p(h,s)
         public const double Smax = 11.921054825051103;     // Max Entropy [kJ/kg-K] for Backward p(h,s)
         public const double STPmax = 6.04048367171238;     // S(Tmax,Pmax)
@@ -41,6 +44,8 @@ namespace IF97
         public const double S23max = 5.260578707;          // B23 Bounding Box
         public const double H23min = 2.563592004E3;        // B23 Bounding Box
         public const double H23max = 2.812942061E3;        // B23 Bounding Box
+
+
         public static readonly ValueTuple<int, int, double>[] Hresiddata = {        // Residual H for viscosity
             (0, 0,  5.20094e-1),
             (1, 0,  8.50895e-2),
@@ -64,12 +69,14 @@ namespace IF97
             (3, 6, -4.35673e-3),
             (5, 6, -5.93264e-4)
         };
+
         public static readonly ValueTuple<int, double>[] Hidealdata = {         // Ideal H for viscosity
             (0,  1.67752   ),
             (1,  2.20462   ),
             (2,  0.6366564 ),
             (3, -0.241605  )
         };
+
         public static readonly ValueTuple<int, int, double>[] Lresiddata = {       // Residual L for Thermal Conductivity
             ( 0, 0,  1.60397357000 ),
             ( 1, 0,  2.33771842000 ),
@@ -102,6 +109,7 @@ namespace IF97
             ( 3, 5,  0.00000000000 ),
             ( 4, 5,  0.01291384200 )
         };
+
         public static readonly ValueTuple<int, double>[] Lidealdata = {          // Ideal L for thermal conductivity
             (0,  2.443221E-3),
             (1,  1.323095E-2),
