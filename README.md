@@ -1,3 +1,7 @@
+#IF97csharp with English explanation
+
+
+
 # IF97
 A c# version IF97 implementation origin from [CoolProp/IF97](https://github.com/CoolProp/IF97) with FastPow idea from [PySEE/SEUIF97](https://github.com/PySEE/SEUIF97)
 
